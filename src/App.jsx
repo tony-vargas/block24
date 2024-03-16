@@ -1,6 +1,11 @@
+import {puppyList} from './data.js'
+import { useState } from 'react'
+
 
 
 function App() {
+  console.log(puppies)
+  const [puppies, setPuppies] = useState(puppyList)
 
   return (
     <>
